@@ -38,6 +38,14 @@
     height: 0.01em;
 }
 
+/* BANNER */
+
+.banner-inicial img{
+    width: 100%;
+    min-width: none;
+    max-width: auto;
+}
+
 /* PRODUTOS */
 
 .container h2 {
@@ -46,47 +54,42 @@
 }
 
 .titulo h3 {
-    margin: 2em 0 0 2em;
+    margin: 1.4em 0 0 2em;
     letter-spacing: 2px;
 }
 
-.produtos-camiseta {
+.produtos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 100%;
     min-height: 37vh;
     max-height: 200vh;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
-.produtos-camiseta img {
+.produtos img {
     /* max-width: 20vh; */
     height: 30vh;
     margin: 1vh 0 1vh 0;
     border-radius: 10px;
     border: solid 1px black;
     min-width: 25vh;
-    max-width: auto;
+    max-width: 25vh;
 }
 
-.item-camiseta  {
+.item  {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 25vh;
+    justify-content:center;
+    width: 26vh;
     min-height: 37vh;
     max-height: 100vh;
-    margin: 0 2.5rem;
+    margin: 0 auto;
     cursor: pointer;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
-.item-camiseta h4 {
+.item h4 {
     font-size: 14px;
-}
-
-.moletom h3 {
-    margin-top: 50px;
 }
