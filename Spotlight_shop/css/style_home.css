@@ -12,6 +12,8 @@
     padding: 0.1em;
     background-color: #292929;
     box-shadow: 0em 0.1em 3em black;
+    min-width: none;
+    max-width: auto;
 }
 
 .logo, ul, .nav-item, a {
@@ -48,19 +50,21 @@
 
 /* PRODUTOS */
 
+
+
 .container h2 {
     margin: 1em 0 1em 1em;
     letter-spacing: 3px;
 }
 
 .titulo h3 {
-    margin: 1.4em 0 0 2em;
+    margin: 2em 0 0 2em;
     letter-spacing: 2px;
 }
 
 .produtos {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     width: 100%;
     min-height: 37vh;
@@ -68,22 +72,25 @@
     /* background-color: aquamarine; */
 }
 
-.produtos img {
+.item img {
     /* max-width: 20vh; */
     height: 30vh;
     margin: 1vh 0 1vh 0;
     border-radius: 10px;
-    border: solid 1px black;
-    min-width: 25vh;
-    max-width: 25vh;
+    border: solid 1px #292929;
+    min-width: 22vh;
+    max-width: 23vh;
 }
+
+/* ITEM */
 
 .item  {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    width: 26vh;
-    min-height: 37vh;
+    /* justify-content:center; */
+    align-items: center;
+    width: 25vh;
+    min-height: 35vh;
     max-height: 100vh;
     margin: 0 auto;
     cursor: pointer;
@@ -91,5 +98,31 @@
 }
 
 .item h4 {
-    font-size: 14px;
+    font-size: 14px;    
+}
+
+.item .price {
+    margin-top: auto;
+}
+
+/* CONTATO */
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    margin: 4em auto;
+    width: 7em;
+    padding: 1em;
+    border-radius: 10px;    
+}
+
+.contact-button h5 {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.contact-button:hover{
+    opacity: 0.9;;
 }
