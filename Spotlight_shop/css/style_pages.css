@@ -52,8 +52,8 @@
 
 
 
-.container h2 {
-    margin: 1em 0 1em 1em;
+.container .primeiro-titulo {
+    margin: 2em 0 1em 1em;
     letter-spacing: 3px;
 }
 
@@ -78,8 +78,7 @@
     margin: 1vh 0 1vh 0;
     border-radius: 10px;
     border: solid 1px #292929;
-    min-width: 22vh;
-    max-width: 23vh;
+    width: 22vh;
 }
 
 /* ITEM */
@@ -89,7 +88,7 @@
     flex-direction: column;
     /* justify-content:center; */
     align-items: center;
-    width: 25vh;
+    width: 22vh;
     min-height: 35vh;
     max-height: 100vh;
     margin: 0 auto;
